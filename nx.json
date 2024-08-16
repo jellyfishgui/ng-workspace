@@ -48,6 +48,15 @@
     },
     "e2e-ci--**/*": {
       "dependsOn": ["^build"]
+    },
+    "@nx/angular:webpack-browser": {
+      "inputs": [
+        "production",
+        "^production",
+        {
+          "env": "NX_MF_DEV_REMOTES"
+        }
+      ]
     }
   },
   "plugins": [
