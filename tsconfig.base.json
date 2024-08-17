@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@ng-workspace/material-libs": ["libs/material-libs/src/index.ts"],
       "@ng-workspace/orders": ["libs/orders/src/index.ts"],
       "@ng-workspace/public-components": [
         "libs/public/components/src/index.ts"
