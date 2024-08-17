@@ -433,6 +433,9 @@ import { Component, ViewEncapsulation } from '@angular/core';
             <span> Hello there, </span>
             Welcome main-data 👋
           </h1>
+          <div>
+            <router-outlet></router-outlet>
+          </div>
         </div>
         <!--  HERO  -->
         <div id="hero" class="rounded">

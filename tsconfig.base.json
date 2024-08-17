@@ -15,6 +15,11 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@ng-workspace/orders": ["libs/orders/src/index.ts"],
+      "@ng-workspace/public-components": [
+        "libs/public/components/src/index.ts"
+      ],
+      "@ng-workspace/shared-ui": ["libs/shared/ui/src/index.ts"],
       "main-data/Routes": [
         "apps/main-data/src/app/remote-entry/entry.routes.ts"
       ]
